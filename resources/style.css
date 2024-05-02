@@ -1,1 +1,100 @@
 /* Dont forget to reset your defaults (*) */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 7: Apply Hover effect to the links */
+a:hover {
+    /* background-color: brown; */
+    font-size: 20px;
+}
+
+body {
+    /* background-color: lightyellow; */
+    /* 2: Applying background color with linear-gradient */
+    background-image: linear-gradient(180deg, rgb(195, 196, 169), rgb(76, 76, 134));
+
+    /* 3: Center the elements on the page */
+    display: grid;
+    justify-content: center;
+
+    
+}
+
+form {
+    /* 14: Change the width of the form to be 450px max */
+    max-width: 450px;
+
+    /* 15: Add a background and border to the form */
+    border: 1px solid black;
+    background-color: bisque;
+
+
+}
+
+/* 8: Target h1, h2, h3 and change their font and font color */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 77px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 44px;
+}
+
+ol {
+    /* 9: Target the ordered list and alter the list style */
+    /* list-style: lower-alpha; */
+}
+
+input{
+    /* 18: Center allign the form text */
+    text-align: center;
+}
+
+label {
+    /* 19: Left allign the label text */
+    display: flex;
+    justify-content: left;
+}
+
+li {
+    /* 10: Target the list items and change the font */
+    font-family:monospace;
+}
+
+table {
+    /* 11: Alter the max width of the table to be 400 px */
+    width: 100%;
+    max-width: 400px;
+
+    /* 13: Add a border abd background color to the table */
+    border: 1px solid black;
+    background-color: bisque;
+}
+
+.wrapper {
+    /* 1: Applying height and width to the parent element i */
+    height: 100vh;
+    width: auto;
+}
+
+.sea-scape{
+    /* 5: Apply a width of 500px to the image */
+    width: 200px;
+}
+
+
+
+#nav-bar {
+    /* 6: Apply flex box, and have space between the elements, img and nav links */
+    display: flex;
+    justify-content: space-between;
+}
